@@ -22,6 +22,9 @@ It is designed to work across agents:
 - `latex-page-reduction/`
   Reduce a LaTeX conference paper to a hard page limit (e.g., 9 pages for COLM/ICLR/ICML). Covers priority-ordered trimming techniques (syntactic tightening → removing redundant examples → negative vspace → structural moves), hard rules (never change `[H]` float, no em dashes, no content deletion without approval), Overleaf merge-conflict handling, and common pitfalls.
 
+- `multi-pr-feature-shipping/`
+  Discipline and workflow for shipping a multi-issue feature as a series of small sub-PRs into a long-lived integration branch. Covers branch strategy (per-issue worktrees off `feat/<feature>`), the six-step cycle (setup → implement → self-check → commit → push → PR), always-ask gates, eight discipline rules (honest reporting, strict scope, no fabrication, anti-self-inflation, …), common failure modes with cause/prevention pairs, and a boundary-log debugging methodology.
+
 ## Usage
 
 For Codex:
